@@ -1,0 +1,66 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D8A9F4; /* Cor lilás de fundo */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6A3EC6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Estilo para as seções */
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #F4E1F0;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #6A3EC6;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #6A3EC6;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a foto */
+.foto img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #6A3EC6;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
